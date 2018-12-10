@@ -266,7 +266,8 @@
 + (int)navBarBottom {
     return 44 + CGRectGetHeight([UIApplication sharedApplication].statusBarFrame);
 }
-+ (BOOL)isIphoneX {
+
++ (BOOL)isIPhoneX {
     struct utsname systemInfo;
     uname(&systemInfo);
     NSString *platform = [NSString stringWithCString:systemInfo.machine encoding:NSASCIIStringEncoding];
