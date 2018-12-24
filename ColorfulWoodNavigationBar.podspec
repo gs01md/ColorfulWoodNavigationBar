@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "ColorfulWoodNavigationBar"
-s.version      = "1.0.1"
+s.version      = "1.0.2"
 s.summary      = "NavigationBar"
 
 s.homepage     = "https://github.com/gs01md"
@@ -19,5 +19,8 @@ s.source_files = "ColorfulWoodNavigationBar/ColorfulWoodNavigationBar/CocoapodFi
 s.platform     = :ios, "9.0"
 
 s.frameworks   = 'UIKit'
+
+#图片等资源文件
+s.resources    = "ColorfulWoodNavigationBar/ColorfulWoodNavigationBar/CocoapodFiles/CWNBBundle/CWNBBundle.bundle"
 
 end

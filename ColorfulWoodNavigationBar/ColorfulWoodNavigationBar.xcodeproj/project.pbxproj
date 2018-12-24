@@ -14,6 +14,7 @@
 		8B152C6B21BBB25F0094C3CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B152C6921BBB25F0094C3CA /* LaunchScreen.storyboard */; };
 		8B152C6E21BBB25F0094C3CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B152C6D21BBB25F0094C3CA /* main.m */; };
 		8B152C7A21BBB5160094C3CA /* ColorfulWoodNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B152C7921BBB5160094C3CA /* ColorfulWoodNavigationBar.m */; };
+		8B1C742421D0D9520042E493 /* CWNBBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8B1C742321D0D9510042E493 /* CWNBBundle.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		8B152C6D21BBB25F0094C3CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8B152C7821BBB5160094C3CA /* ColorfulWoodNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorfulWoodNavigationBar.h; sourceTree = "<group>"; };
 		8B152C7921BBB5160094C3CA /* ColorfulWoodNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorfulWoodNavigationBar.m; sourceTree = "<group>"; };
+		8B1C742321D0D9510042E493 /* CWNBBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CWNBBundle.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +80,19 @@
 		8B152C7421BBB27E0094C3CA /* CocoapodFiles */ = {
 			isa = PBXGroup;
 			children = (
+				8B1C742221D0D9510042E493 /* CWNBBundle */,
 				8B152C7821BBB5160094C3CA /* ColorfulWoodNavigationBar.h */,
 				8B152C7921BBB5160094C3CA /* ColorfulWoodNavigationBar.m */,
 			);
 			path = CocoapodFiles;
+			sourceTree = "<group>";
+		};
+		8B1C742221D0D9510042E493 /* CWNBBundle */ = {
+			isa = PBXGroup;
+			children = (
+				8B1C742321D0D9510042E493 /* CWNBBundle.bundle */,
+			);
+			path = CWNBBundle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B152C6B21BBB25F0094C3CA /* LaunchScreen.storyboard in Resources */,
+				8B1C742421D0D9520042E493 /* CWNBBundle.bundle in Resources */,
 				8B152C6821BBB25F0094C3CA /* Assets.xcassets in Resources */,
 				8B152C6621BBB25B0094C3CA /* Main.storyboard in Resources */,
 			);

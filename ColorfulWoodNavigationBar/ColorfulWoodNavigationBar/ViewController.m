@@ -25,6 +25,9 @@
     self.customNavigationBar.title = title;
     self.customNavigationBar.barBackgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@""]];
     _customNavigationBar.titleLabelFont = [UIFont fontWithName:@"PingFangSC-Medium" size:17];
+
+    UIImage * img = [UIImage imageNamed:@"left"];
+    [self.customNavigationBar cw_setLeftButtonWithImage:img];
     //_customNavigationBar.titleLabelColor = kColorXRGB(0X1A1A1A);
 
 }
