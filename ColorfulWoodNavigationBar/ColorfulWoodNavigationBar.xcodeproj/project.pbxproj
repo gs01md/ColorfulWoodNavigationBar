@@ -66,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				8B1C742621D1C6C70042E493 /* ColorfulWoodNavigationBar.podspec */,
+				8B1C742321D0D9510042E493 /* CWNBBundle.bundle */,
 				8B152C7421BBB27E0094C3CA /* CocoapodFiles */,
 				8B152C5E21BBB25B0094C3CA /* AppDelegate.h */,
 				8B152C5F21BBB25B0094C3CA /* AppDelegate.m */,
@@ -83,7 +84,6 @@
 		8B152C7421BBB27E0094C3CA /* CocoapodFiles */ = {
 			isa = PBXGroup;
 			children = (
-				8B1C742321D0D9510042E493 /* CWNBBundle.bundle */,
 				8B152C7821BBB5160094C3CA /* ColorfulWoodNavigationBar.h */,
 				8B152C7921BBB5160094C3CA /* ColorfulWoodNavigationBar.m */,
 			);
