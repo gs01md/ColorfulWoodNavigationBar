@@ -16,7 +16,7 @@
 /**
  * bundle中的图片
  */
-#define ColorfulWoodNavigationBar_bundle_pngImg(name) [UIImage imageWithContentsOfFile:[CWUBBDefine_bundle pathForResource:name ofType:@"png"]]
+#define ColorfulWoodNavigationBar_bundle_pngImg(name) [UIImage imageWithContentsOfFile:[ColorfulWoodNavigationBar_bundle pathForResource:name ofType:@"png"]]
 
 NS_ASSUME_NONNULL_BEGIN
 
